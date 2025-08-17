@@ -1,0 +1,52 @@
+# Core ML and NLP libraries
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+
+# Vector database and similarity search
+faiss-cpu>=1.7.4
+
+# Data processing and analysis
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Text processing
+nltk>=3.8
+spacy>=3.4.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# File handling and utilities
+pathlib2>=2.3.0
+hashlib3>=1.0.1
+
+# Optional: GPU support (uncomment if you have CUDA)
+# faiss-gpu>=1.7.4  # Replace faiss-cpu with this for GPU acceleration
+
+# Optional: Advanced text processing
+# beautifulsoup4>=4.11.0  # For HTML processing
+# python-docx>=0.8.11     # For Word documents
+# PyPDF2>=3.0.0           # For PDF processing
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0
+isort>=5.10.0
+
+# Optional: Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Optional: Advanced embeddings models
+# openai>=0.27.0          # For OpenAI embeddings
+# cohere>=4.0.0           # For Cohere embeddings
+
+# Optional: Memory optimization
+# psutil>=5.9.0           # For system monitoring
